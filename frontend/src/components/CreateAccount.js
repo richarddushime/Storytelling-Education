@@ -44,7 +44,7 @@ function CreateAccount() {
                 <input
                   className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3"
                   type="text"
-                  placeholder="aryaman@vivid.lol"
+                  placeholder="john@gmail.com"
                 />
               </div>
               <div>
