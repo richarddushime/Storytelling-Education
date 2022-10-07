@@ -1,12 +1,8 @@
 import "./App.css";
+import CreateAccount from "./components/CreateAccount.js";
 
 function App() {
-  return (
-    <div>
-      <h1 className="text-6xl italic">Storytelling-Education</h1>
-      <h1 className="text-3xl font-bold underline">Project set up complete</h1>
-    </div>
-  );
+  return <CreateAccount />;
 }
 
 export default App;
