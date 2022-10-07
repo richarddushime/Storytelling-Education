@@ -83,7 +83,7 @@ function CreateAccount() {
               />
             </div>
           </form>
-          <p className="pt-10">Already have an account? Log In</p>
+          <p className="pt-10">Already have an account? <a className="text-purple-600" href="/">Log In</a> </p>
         </div>
       </div>
     </div>
