@@ -70,7 +70,6 @@ function CreateAccount() {
                 type="checkbox"
                 id="terms"
                 name="terms"
-                checked
               />
               <label for="terms">
                 I agree to the Terms and Conditions of the Educate blog
