@@ -13,35 +13,76 @@ function CreateAccount() {
           <p className="text-black mt-6">
             Share your knowledge and stay up to date with all things tech
           </p>
-          <div className="grid grid-cols-2 grid-rows-3 gap-y-16 pt-10">
-            <div>
-              <h1 className="text-xl font-semibold">First Name</h1>
-              <input className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3" type="text" placeholder="John"/>
+          <form>
+            <div className="grid grid-cols-2 grid-rows-3 gap-y-16 pt-10">
+              <div>
+                <h1 className="text-xl font-semibold">First Name</h1>
+                <input
+                  className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3"
+                  type="text"
+                  placeholder="John"
+                />
+              </div>
+              <div>
+                <h1 className="text-xl font-semibold">Last Name</h1>
+                <input
+                  className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3"
+                  type="text"
+                  placeholder="Doe"
+                />
+              </div>
+              <div>
+                <h1 className="text-xl font-semibold">Phone Number</h1>
+                <input
+                  className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3"
+                  type="text"
+                  placeholder="6105336030"
+                />
+              </div>
+              <div>
+                <h1 className="text-xl font-semibold">Email Address</h1>
+                <input
+                  className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3"
+                  type="text"
+                  placeholder="aryaman@vivid.lol"
+                />
+              </div>
+              <div>
+                <h1 className="text-xl font-semibold">Password</h1>
+                <input
+                  className="border border-purple-700 w-11/12 h-10 rounded mt-2"
+                  type="text"
+                />
+              </div>
+              <div className="font-semibold">
+                <h1 className="text-xl">Confirm Password</h1>
+                <input
+                  className="border border-purple-700 w-11/12 h-10 rounded mt-2"
+                  type="text"
+                />
+              </div>
             </div>
-            <div >
-              <h1 className="text-xl font-semibold">Last Name</h1>
-            <input className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3" type="text" placeholder="Doe"/>
-            
+            <div className="pt-10">
+              <input
+                className="mr-2"
+                type="checkbox"
+                id="terms"
+                name="terms"
+                checked
+              />
+              <label for="terms">
+                I agree to the Terms and Conditions of the Educate blog
+              </label>
             </div>
-            <div>
-              <h1 className="text-xl font-semibold">Phone Number</h1>
-            <input className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3" type="text" placeholder="6105336030"/>
+            <div className="pt-10">
+              <input
+                className="mr-2 bg-purple-800 px-14 text-white rounded py-3"
+                type="submit"
+                value="Create Account"
+              />
             </div>
-            <div>
-              <h1 className="text-xl font-semibold">Email Address</h1>
-            <input className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3" type="text" placeholder="aryaman@vivid.lol"/>
-            
-            </div>
-            <div>
-              <h1 className="text-xl font-semibold">Password</h1>
-              <input className="border border-purple-700 w-11/12 h-10 rounded mt-2" type="text" />
-            </div>
-            <div className="font-semibold">
-              <h1 className="text-xl">Confirm Password</h1>
-            <input className="border border-purple-700 w-11/12 h-10 rounded mt-2" type="text" />
-            </div>
-          
-          </div>
+          </form>
+          <p className="pt-10">Already have an account? Log In</p>
         </div>
       </div>
     </div>
