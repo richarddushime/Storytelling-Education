@@ -50,15 +50,17 @@ function CreateAccount() {
               <div>
                 <h1 className="text-xl font-semibold">Password</h1>
                 <input
-                  className="border border-purple-700 w-11/12 h-10 rounded mt-2"
+                  className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3"
                   type="text"
+                  placeholder="..........."
                 />
               </div>
-              <div className="font-semibold">
-                <h1 className="text-xl">Confirm Password</h1>
+              <div className="">
+                <h1 className="text-xl font-semibold">Confirm Password</h1>
                 <input
-                  className="border border-purple-700 w-11/12 h-10 rounded mt-2"
+                  className="border border-purple-700 w-11/12 h-10 rounded mt-2 p-3"
                   type="text"
+                  placeholder="..........."
                 />
               </div>
             </div>
